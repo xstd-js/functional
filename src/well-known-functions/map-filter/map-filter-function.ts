@@ -1,6 +1,4 @@
-export const DISCARD_TOKEN = Symbol('DISCARD_TOKEN');
-
-export type DiscardToken = typeof DISCARD_TOKEN;
+import { DiscardToken } from './discard-token.js';
 
 export interface MapFilterFunction<GIn, GOut> {
   (value: GIn): GOut | DiscardToken;
