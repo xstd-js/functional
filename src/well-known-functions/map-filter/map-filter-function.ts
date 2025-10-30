@@ -1,4 +1,4 @@
-import { None } from '@xstd/none';
+import { type None } from '@xstd/none';
 
 export interface MapFilterFunction<GIn, GOut> {
   (value: GIn): GOut | None;
